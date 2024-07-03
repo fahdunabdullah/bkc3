@@ -99,7 +99,7 @@
                             <td>{{ $medicine->expired ? date("d/m/Y", strtotime($medicine->expired)) : 'Expired belum di Set' }}</td>
                             <td>
                                 @if ($medicine->photo)
-                                    <img src="/image/{{ $medicine->photo }}" alt="Medicine Photo" width="100%">
+                                    <img src="/public/image/{{ $medicine->photo }}" alt="Medicine Photo" width="100%">
                                 @else
                                     Gambar Belum ada
                                 @endif

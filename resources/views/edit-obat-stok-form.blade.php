@@ -84,7 +84,7 @@
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label">Gambar obat</label>
                 <div class="col-sm-5">
-                    <img src="/image/{{ $data->photo }}" alt="" width="100%">
+                    <img src="/public/image/{{ $data->photo }}" alt="" width="100%">
                     <input type="file" class="form-control @error('image') is-invalid @enderror" id="notelp"
                         name="image">
                     @error('image')
