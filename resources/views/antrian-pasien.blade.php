@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Terapi {{ env('APP_NAME') }}</title>
+    <title>Therapy {{ env('APP_NAME') }}</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
@@ -28,7 +28,7 @@
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="/#page-top"><img src="{{ asset('img/logo.png') }}" style=”float:left;
-                    width="55";height="55"” />KLINIK {{ env('APP_NAME') }}</a>
+                    width="55";height="55"” />konsultasi {{ env('APP_NAME') }}</a>
             <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
