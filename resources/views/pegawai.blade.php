@@ -1,4 +1,4 @@
-<title>Pegawai Klinik</title>
+<title>Pegawai Terapy</title>
 @extends('layouts.main')
 @section('content')
     @if ($errors->any())

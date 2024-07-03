@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Klinik {{ env('APP_NAME') }}</title>
+    <title>Terapy {{ env('APP_NAME') }}</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
@@ -28,7 +28,7 @@
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top"><img src="{{ asset('img/logo.png') }}" style=”float:left;
-                    width="55";height="55"” />KLINIK</a>
+                    width="55";height="55"” />TERAPY</a>
             <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -130,7 +130,7 @@
                     <div class="modal-header">
                         <h5 class="modal-title" id="staticBackdropLabel">
                             <img src="{{ asset('img/logo.png') }}" style=”float:left;
-                                width="55";height="55"” />Klinik {{ env('APP_NAME') }}
+                                width="55";height="55"” />Terapy {{ env('APP_NAME') }}
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                             aria-label="Close"></button>
@@ -176,7 +176,7 @@
                 <div class="col-lg-4">
                     <h4 class="text-uppercase mb-4">Tentang terapy</h4>
                     <p class="lead mb-0">
-                        Klinik {{ env('APP_NAME') }} dibangun sejak tahun 2024 yang berada di, Kec. Tarogong Kaler, Kabupaten Garut
+                        Terapy {{ env('APP_NAME') }} dibangun sejak tahun 2024 yang berada di, Kec. Tarogong Kaler, Kabupaten Garut
                     </p>
                 </div>
             </div>
@@ -198,7 +198,7 @@
                     <div class="modal-header">
                         <h5 class="modal-title" id="staticBackdropLabel">
                             <img src="{{ asset('img/logo.png') }}" style=”float:left;
-                                width="55";height="55"” />Klinik {{ env('APP_NAME') }}
+                                width="55";height="55"” />Terapy {{ env('APP_NAME') }}
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                             aria-label="Close"></button>
@@ -240,7 +240,7 @@
                         <div class="modal-header">
                             <h5 class="modal-title" id="staticBackdropLabel">
                                 <img src="{{ asset('img/logo.png') }}" style=”float:left;
-                                    width="55";height="55"” />Klinik {{ env('APP_NAME') }}
+                                    width="55";height="55"” />Terapy {{ env('APP_NAME') }}
                             </h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                 aria-label="Close"></button>

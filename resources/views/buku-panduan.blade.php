@@ -28,7 +28,7 @@
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="/#page-top"><img src="{{ asset('img/logo.png') }}" style=”float:left;
-                    width="55";height="55"” />KLINIK {{ env('APP_NAME') }}</a>
+                    width="55";height="55"” />TERAPY {{ env('APP_NAME') }}</a>
             <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +58,7 @@
             <!-- Masthead Avatar Image-->
             <h1>Buku Panduan</h1>
             <h3>Tata cara penggunaan aplikasi web</h3>
-            <h5>klinikmajusejahtera.com</h5>
+            <h5>terapykonsultasi.com</h5>
            
 
         </div>
@@ -109,7 +109,7 @@
         <h3>||</h3>
         <h2>V</h2>
         <h1>====== 5 ======</h1>
-        <h5 class="text-center">Jika berhasil maka pasien akan mendapatkan kartu antrian yang bisa didownload untuk ditunjukkan ke petugas klinik</h5>
+        <h5 class="text-center">Jika berhasil maka pasien akan mendapatkan kartu antrian yang bisa didownload untuk ditunjukkan ke petugas terapy</h5>
         <p class="text-center">seperti ini contoh kartunya:</p>
         <img class="img-fluid" src="img/bukupanduan/pendaftaran-5.JPG" alt="..." />
     </div>
@@ -155,7 +155,7 @@
         <h3>||</h3>
         <h2>V</h2>
         <h1>====== 4 ======</h1>
-        <h5 class="text-center">Jika Selesai maka pasien akan mendapatkan kartu antrian yang bisa didownload untuk ditunjukkan ke petugas klinik</h5>
+        <h5 class="text-center">Jika Selesai maka pasien akan mendapatkan kartu antrian yang bisa didownload untuk ditunjukkan ke petugas terapy</h5>
         <p class="text-center">seperti ini contoh kartunya:</p>
         <img class="img-fluid" src="img/bukupanduan/pendaftaran-5.JPG" alt="..." />
 
@@ -170,7 +170,7 @@
 
     <!--------------------------------------------------------copyright----------------------------------------------------------------------------------->
     <div class="copyright py-4 text-center text-white">
-        <div class="container"><small>Copyright &copy; Klinik {{ env('APP_NAME') }} 2022</small></div>
+        <div class="container"><small>Copyright &copy; Terapy {{ env('APP_NAME') }} 2024</small></div>
     </div>
     @push('scripts')
 

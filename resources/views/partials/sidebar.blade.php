@@ -5,7 +5,7 @@
         <div class="sidebar-brand-icon">
             <i class="fas fa-hospital"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">KLINIK {{ env("APP_NAME") }} </div>
+        <div class="sidebar-brand-text mx-3">TERAPY {{ env("APP_NAME") }} </div>
     </a>
 
     <!-- Divider -->
@@ -127,7 +127,7 @@
     <li class="nav-item">
         <div class="sidebar-card d-none d-lg-flex">
             <img class="sidebar-card-illustration mb-2" src="img/logo.png" alt="...">
-            <p class="text-center mb-2"><strong></strong>Klinik {{ env("APP_NAME") }}</p>
+            <p class="text-center mb-2"><strong></strong>Terapy {{ env("APP_NAME") }}</p>
             <a class="btn btn-success btn-sm" href="/">Ke Beranda</a>
         </div>
 
@@ -143,7 +143,7 @@
     </li>
 
     <div class="sidebar-heading">
-        Powered by &copy; KLINIK {{ env("APP_NAME") }} <br>2024
+        Powered by &copy; TERAPY {{ env("APP_NAME") }} <br>2024
     </div>
 
 </ul>

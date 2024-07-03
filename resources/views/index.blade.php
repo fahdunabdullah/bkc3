@@ -208,13 +208,13 @@
                 </div>
                 <div class="col-lg-4 me-auto">
                     <p class="lead">Anda bisa mendaftar secara online tanpa perlu mengantri atau
-                        langsung datang ke Klinik Konsultasi <a class="btn btn-outline-light" href="/antrian-pasien">
+                        langsung datang ke Terapy Konsultasi <a class="btn btn-outline-light" href="/antrian-pasien">
                             <i class="fas fa-users me-2"></i>
                             Cek Antrian disini
                         </a></p>
                 </div>
             </div>
-            <!--------------------------------------------------------Login Sebagai Staff Klinik----------------------------------------------------------------------------------->
+            <!--------------------------------------------------------Login Sebagai Staff Terapy----------------------------------------------------------------------------------->
             <div class="text-center mt-4">
                 <a class="btn btn-xl btn-outline-light" href="/dashboard">
                     <i class="fas fa-user me-2"></i>
@@ -223,7 +223,7 @@
             </div>
         </div>
     </section>
-    <!--------------------------------------------------------Kontak Klinik----------------------------------------------------------------------------------->
+    <!--------------------------------------------------------Kontak Terapy----------------------------------------------------------------------------------->
     <section class="page-section" id="contact">
         <div class="container">
             <!-- Contact Section Heading-->
@@ -275,7 +275,7 @@
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
-                    <h4 class="text-uppercase mb-4">Tentang Klinik</h4>
+                    <h4 class="text-uppercase mb-4">Tentang Terapy</h4>
                     <p class="lead mb-0">
                         Terapy {{ env('APP_NAME') }} dibangun sejak tahun 2024 yang berada di SMK Wikrama 1 Garut
                     </p>
@@ -372,7 +372,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Halaman Klinik
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Halaman Terapy
                                 </h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
@@ -747,7 +747,7 @@
                     <div class="modal-header">
                         <h5 class="modal-title" id="staticBackdropLabel">
                             <img src="{{ asset('img/logo.png') }}" style=”float:left;
-                                width="55";height="55"” />Klinik {{ env('APP_NAME') }}
+                                width="55";height="55"” />Terapy {{ env('APP_NAME') }}
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                             aria-label="Close"></button>
@@ -794,7 +794,7 @@
                     <div class="modal-header">
                         <h5 class="modal-title" id="staticBackdropLabel">
                             <img src="{{ asset('img/logo.png') }}" style=”float:left;
-                                width="55";height="55"” />Klinik {{ env('APP_NAME') }}
+                                width="55";height="55"” />Terapy {{ env('APP_NAME') }}
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                             aria-label="Close"></button>
