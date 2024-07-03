@@ -4,7 +4,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>BKC {{ env("APP_NAME") }} - Dashboard</title>
+<title>TERAPY {{ env("APP_NAME") }} - Dashboard</title>
 
 <!-- Custom fonts for this template-->
 <link href="{{ asset ('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
