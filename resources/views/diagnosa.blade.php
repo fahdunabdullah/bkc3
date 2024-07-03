@@ -38,22 +38,23 @@
                     @php
                         $count = 0;
                     @endphp
-                    @foreach($data as $row)
-                    <tr>
-                        <td>{{ $count=$count+1 }}</td>
-                        <td> 
-                            <a href="{{ route('diagnosatools.edit', $row->id) }}" data-bs-toggle="tooltip" data-bs-original-title="Tambah Diagnosa Pasien" class="btn btn-success">
-                                <i class="fas fa-stethoscope text-white"></i>
-                            </a>
-                        </td>
-                        <td>{{ $row->nomorantrian }}</td>
-                        <td>{{ $row->pasien == '' ? 'Belum ada kode' : $row->pasien->kodepasien }}</td>
-                        <td>{{ $row->pasien->nama }}</td>
-                        <td>{{ $row->pasien->lahir->format('d/M/Y'); }}</td>
-                        <td>{{ $row->pasien->lahir->age }} Tahun</td>
-                        <td>{{ $row->layanan }}</td>
-                        <td>{{ $row->keluhan }}</td>
-                    </tr>
+                    @foreach ($data as $row)
+                        <tr>
+                            <td>{{ $count = $count + 1 }}</td>
+                            <td>
+                                <a href="{{ route('diagnosatools.edit', $row->id) }}" data-bs-toggle="tooltip"
+                                    data-bs-original-title="Tambah Diagnosa Pasien" class="btn btn-success">
+                                    <i class="fas fa-stethoscope text-white"></i>
+                                </a>
+                            </td>
+                            <td>{{ $row->nomorantrian }}</td>
+                            <td>{{ $row->pasien == '' ? 'Belum ada kode' : $row->pasien->kodepasien }}</td>
+                            <td>{{ $row->pasien->nama }}</td>
+                            <td>{{ $row->pasien->lahir->format('d/M/Y') }}</td>
+                            <td>{{ $row->pasien->lahir->age }} Tahun</td>
+                            <td>{{ $row->layanan }}</td>
+                            <td>{{ $row->keluhan }}</td>
+                        </tr>
                     @endforeach
                 </tbody>
             </table>
@@ -74,14 +75,16 @@
                     buttons: [{
                             extend: 'excel',
                             text: 'Excel',
-                            messageTop: 'Data Antrian Harian per Tanggal '+'{{  \Carbon\Carbon::now()->format("d-M(m)-Y") }}'
-                            
+                            messageTop: 'Data Antrian Harian per Tanggal ' +
+                                '{{ \Carbon\Carbon::now()->format('d-M(m)-Y') }}'
+
                         },
                         {
                             extend: 'copy',
                             text: 'Copy Isi',
-                            messageTop: 'Data Antrian Harian per Tanggal '+'{{  \Carbon\Carbon::now()->format("d-M(m)-Y") }}'
-                            
+                            messageTop: 'Data Antrian Harian per Tanggal ' +
+                                '{{ \Carbon\Carbon::now()->format('d-M(m)-Y') }}'
+
                         },
                     ],
                     language: {
